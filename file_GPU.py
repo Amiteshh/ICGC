@@ -1,7 +1,7 @@
 #GPU
 
 #pip install gwpy lalsuite Pycbc
-
+#ADD  A  2D File
 import numpy as np
 #from pycbc.waveform import get_td_waveform
 #from gwpy.timeseries import TimeSeries
