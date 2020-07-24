@@ -381,5 +381,5 @@ for i in (range(0,18536)):
     plt.axis("off")
     plt.imshow((alb[i]* 255).astype(np.uint8), cmap=None, interpolation='nearest')
     plt.savefig(label[i])
-    if (i+55609)%100==0:
-        print(i+58707,'\t',i)
+    if (i+55609)%500==0:
+        print(i+55609,'th image complete\t',i,' : Images loaded')
